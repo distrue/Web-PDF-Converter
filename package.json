@@ -1,0 +1,18 @@
+{
+  "name": "converter",
+  "version": "1.0.0",
+  "description": "md-to-html",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./converter.js",
+    "build": "pkg --target node10-macos-x64 converter.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^1.14.0",
+    "readline-sync": "^1.4.9"
+  },
+  "devDependencies": {
+    "pkg": "^4.4.0"
+  }
+}
